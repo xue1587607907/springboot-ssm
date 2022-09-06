@@ -15,15 +15,7 @@ class SpringbootSsmApplicationTests {
 
     @Test
     void contextLoads() {
-        Book book = new Book();
-        book.setDescription("java");
-        book.setName("java");
-        IPage<Book> pages = bookService.getBookByPage(1, 2, book);
-        System.out.println("pages.getPages() = " + pages.getPages());
-        System.out.println("pages.getCurrent() = " + pages.getCurrent());
-        System.out.println("pages.getSize() = " + pages.getSize());
-        System.out.println("pages.getTotal() = " + pages.getTotal());
-        System.out.println("pages.getRecords() = " + pages.getRecords());
+        System.out.println("dev.....);
     }
 
 }
